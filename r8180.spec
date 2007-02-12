@@ -5,7 +5,7 @@
 %bcond_with	verbose		# verbose build (V=1)
 #
 Summary:	Linux driver for WLAN card base on RTL8180
-Summary(pl):	Sterownik dla Linuksa do kart bezprzewodowych na uk≥adzie RTL8180
+Summary(pl.UTF-8):   Sterownik dla Linuksa do kart bezprzewodowych na uk≈Çadzie RTL8180
 Name:		r8180
 Version:	0.15
 %define		_rel	1
@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %package -n kernel-net-r8180
 Summary:	Linux driver for WLAN card base on RTL8180
-Summary(pl):	Sterownik dla Linuksa do kart bezprzewodowych na uk≥adzie RTL8180
+Summary(pl.UTF-8):   Sterownik dla Linuksa do kart bezprzewodowych na uk≈Çadzie RTL8180
 Release:	%{_rel}@%{_kernel_ver_str}
 Group:		Base/Kernel
 %{?with_dist_kernel:%requires_releq_kernel_up}
@@ -29,18 +29,18 @@ Requires(post,postun):	/sbin/depmod
 %description
 This is driver for WLAN card based on RTL8180 for Linux.
 
-%description -l pl
-Sterownik dla Linuksa do kart WLAN opartych o uk≥ad RTL8180.
+%description -l pl.UTF-8
+Sterownik dla Linuksa do kart WLAN opartych o uk≈Çad RTL8180.
 
 %description -n kernel-net-r8180
 This is driver for WLAN card based on RTL8180 for Linux.
 
-%description -n kernel-net-r8180 -l pl
-Sterownik dla Linuksa do kart WLAN opartych o uk≥ad RTL8180.
+%description -n kernel-net-r8180 -l pl.UTF-8
+Sterownik dla Linuksa do kart WLAN opartych o uk≈Çad RTL8180.
 
 %package -n kernel-smp-net-r8180
 Summary:	Linux driver for WLAN card base on RTL8180
-Summary(pl):	Sterownik dla Linuksa do kart bezprzewodowych na uk≥adzie RTL8180
+Summary(pl.UTF-8):   Sterownik dla Linuksa do kart bezprzewodowych na uk≈Çadzie RTL8180
 Release:	%{_rel}@%{_kernel_ver_str}
 Group:		Base/Kernel
 %{?with_dist_kernel:%requires_releq_kernel_smp}
@@ -51,10 +51,10 @@ This is driver for WLAN card based on RTL8180 for Linux.
 
 This package contains Linux SMP module.
 
-%description -n kernel-smp-net-r8180 -l pl
-Sterownik dla Linuksa do kart WLAN opartych o uk≥ad RTL8180.
+%description -n kernel-smp-net-r8180 -l pl.UTF-8
+Sterownik dla Linuksa do kart WLAN opartych o uk≈Çad RTL8180.
 
-Ten pakiet zawiera modu≥ j±dra Linuksa SMP.
+Ten pakiet zawiera modu≈Ç jƒÖdra Linuksa SMP.
 
 %prep
 %setup -q -n rtl8180-%{version}

@@ -26,10 +26,10 @@ Group:		Base/Kernel
 %{?with_dist_kernel:%requires_releq_kernel_up}
 Requires(post,postun):	/sbin/depmod
 
-%description
+%description -n kernel-net-r8180
 This is driver for WLAN card based on RTL8180 for Linux.
 
-%description -l pl.UTF-8
+%description -n kernel-net-r8180 -l pl.UTF-8
 Sterownik dla Linuksa do kart WLAN opartych o układ RTL8180.
 
 %description -n kernel-net-r8180

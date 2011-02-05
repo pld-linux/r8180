@@ -32,12 +32,6 @@ This is driver for WLAN card based on RTL8180 for Linux.
 %description -n kernel-net-r8180 -l pl.UTF-8
 Sterownik dla Linuksa do kart WLAN opartych o układ RTL8180.
 
-%description -n kernel-net-r8180
-This is driver for WLAN card based on RTL8180 for Linux.
-
-%description -n kernel-net-r8180 -l pl.UTF-8
-Sterownik dla Linuksa do kart WLAN opartych o układ RTL8180.
-
 %package -n kernel-smp-net-r8180
 Summary:	Linux driver for WLAN card base on RTL8180
 Summary(pl.UTF-8):	Sterownik dla Linuksa do kart bezprzewodowych na układzie RTL8180

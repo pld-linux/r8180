@@ -52,7 +52,7 @@ Ten pakiet zawiera moduł jądra Linuksa SMP.
 
 %prep
 %setup -q -n rtl8180-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 for cfg in %{?with_dist_kernel:%{?with_smp:smp} up}%{!?with_dist_kernel:nondist}; do
